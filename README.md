@@ -20,7 +20,7 @@ global_costmap:
   copy:
     source: local_costmap
     persistent: false
-    enabled: false
+    enabled: true
 
   inflation:
     cost_scaling_factor: 4.0
